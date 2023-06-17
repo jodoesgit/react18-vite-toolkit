@@ -16,11 +16,16 @@ const UseStateObject = () => {
 		// setAge(28);
 		// setHobby("Screaming at Computer");
 
-		setPerson({
-			name: "John",
-			age: 28,
-			hobby: "Screaming at computers",
-		});
+		// setPerson({
+		// 	name: "John",
+		// 	age: 28,
+		// 	hobby: "Screaming at computers",
+		// });
+
+		setPerson({ name: "John", age: 28, hobby: "Screaming at the computer" });
+
+		// setPerson('shakeAndBake'); Gotcha - cannot just pass a string - because we have an object
+		// Equally cannot pass in setPerson({name:'Susie'}) - will only have name value
 	};
 
 	const displaySusie = () => {
