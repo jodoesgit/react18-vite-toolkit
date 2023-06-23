@@ -14,11 +14,21 @@ const CleanupFunction = () => {
 	);
 };
 
+// const RandomComponent = () => {
+// 	useEffect(() => {
+// 		console.log("hmm, interesting");
+// 	});
+// 	return <h1>Hello World</h1>;
+// };
+
 const RandomComponent = () => {
 	useEffect(() => {
-		console.log("hmm, interesting");
-	});
+		const someFunc = () => {
+			//some logic
+		};
+		window.addEventListener("scroll", someFunc);
+		return () => window.removeEventListener("scroll", someFunc);
+	}, []);
 	return <h1>Hello World</h1>;
 };
-
 export default CleanupFunction;
