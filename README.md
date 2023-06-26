@@ -1,4 +1,4 @@
-# react18-and-vite-sandbox
+# react18-vite-sandbox
  
 ## Setup
 
