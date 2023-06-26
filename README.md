@@ -1,4 +1,4 @@
-# react18-redux-sandbox
+# react18-sandbox
  
 ## Setup
 
